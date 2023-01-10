@@ -1,16 +1,12 @@
 {
   "description": "项目配置文件",
-  "packOptions": {
-    "ignore": [],
-    "include": []
-  },
   "setting": {
     "bundle": false,
     "userConfirmedBundleSwitch": false,
     "urlCheck": true,
     "scopeDataCheck": false,
     "coverView": true,
-    "es6": true,
+    "es6": false,
     "postcss": true,
     "compileHotReLoad": false,
     "lazyloadPlaceholderEnable": false,
@@ -24,8 +20,6 @@
     "nodeModules": false,
     "enhance": true,
     "useMultiFrameRuntime": true,
-    "useApiHook": true,
-    "useApiHostProcess": true,
     "showShadowRootInWxmlPanel": true,
     "packNpmManually": false,
     "enableEngineNative": false,
@@ -37,15 +31,19 @@
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
-    }
+    },
+    "ignoreUploadUnusedFiles": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.19.4",
-  "appid": "wxda3deee4a624941c",
-  "projectname": "miniprogram-92",
   "condition": {},
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
-  }
+  },
+  "libVersion": "2.29.1",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "appid": "wxda3deee4a624941c"
 }
