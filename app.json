@@ -1,5 +1,7 @@
 {
+  "lazyCodeLoading": "requiredComponents",
   "pages":[
+    "pages/enroll/enroll",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -10,5 +12,9 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "darkmode": true,
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "weui": true
+  }
 }
