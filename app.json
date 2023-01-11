@@ -1,9 +1,13 @@
 {
   "lazyCodeLoading": "requiredComponents",
   "pages":[
-    "pages/enroll/enroll",
+    "pages/homePage/homePage",
+
+    "pages/enroll/enroll", 
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/menu/menu"
+
   ],
   "window":{
     "backgroundTextStyle":"light",

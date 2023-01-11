@@ -1,5 +1,8 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+
+
+  },
   "navigationBarBackgroundColor": "#F8F8F8",
   "navigationBarTitleText": "高校项管",
   "navigationBarTextStyle": "black" 

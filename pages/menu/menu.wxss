@@ -1,29 +1,47 @@
 /* pages/menu/menu.wxss */
+/* 底部菜单栏整体 */
 .menurow{
   background-color: #fafafa;
   width: 100%;
-  height: 9%;
+  height: 7%;
   bottom:0rpx;
   position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
 }
-.menu{
+/* 以下三个为各自内容 */
+.menuHome{
   width:250rpx;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;/* 用于交叉轴方向对齐 */ 
+  margin-left: 7%;
   justify-content: center;
 }
-.menuImg {
-  margin-top: 5rpx;
-  width:45rpx;
-  height: 34rpx;
-  border-radius: 10rpx;
+.menuRanking{
+  width:250rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;/* 用于交叉轴方向对齐 */ 
+  justify-content: center;
 }
+.menuMy{
+  width:250rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;/* 用于交叉轴方向对齐 */ 
+  margin-right: 7%;
+  justify-content: center;
+}
+/* 图片 */
+.menuImg {
+  margin-top: 13rpx;
+  width:47rpx;
+  height: 37rpx;
+}
+/* 文字 */
 .menuText {
   font-size: 20rpx;
   color:#282828;
