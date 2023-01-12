@@ -1,17 +1,17 @@
 <!--pages/menu/menu.wxml-->
 <view class='menurow'>
-  <view class='menuHome'>
-    <image class='menuImg' src='/images/首页.png'></image>
+  <view class='menu'>
+    <image class='menuImg' src='/images/homePage.png'></image>
     <text class='menuText'>首页</text>
   </view>
 
-  <view class='menuRanking'>
-    <image class='menuImg' src='/images/个人排行.png'></image>
+  <view class='menu'>
+    <image class='menuImg' src='/images/ranking.png'></image>
     <text class='menuText'>排行榜</text>
   </view>
 
-  <view class='menuMy'>
-    <image class='menuImg' src='/images/我的-我的.png'></image>
+  <view class='menu'>
+    <image class='menuImg' src='/images/my.png'></image>
     <text class='menuText'>我的</text>
   </view>
 </view>

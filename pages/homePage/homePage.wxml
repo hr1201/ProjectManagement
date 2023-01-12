@@ -2,11 +2,7 @@
 <view class='calendar'>
   <!--显示当前年月日-->
   <view class='calendar-title'>
-      <view class='item ctrl' bindtap='lastMonth'>{{lastMonth}}</view>
-      <view class='item title'>{{title}}</view>
-      <view class='item ctrl' bindtap='nextMonth'>{{nextMonth}}</view>
-      <view class='item' wx:for='{{weekText}}' wx:key="{{item}}">{{item}}</view>
-      <image class="widget__arrow" src="/images/功能,汉堡键,横杠.png" mode="aspectFill"></image>
+      <calendar id="calendar" bindload="handleLoad" view="week" />
       
       <!-- 引入底部菜单栏 -->
       <include src="/pages/menu/menu"/>
