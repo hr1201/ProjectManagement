@@ -1,0 +1,10 @@
+<!--pages/homePage/homePage.wxml-->
+<view class='calendar'>
+  <!--显示当前年月日-->
+  <view class='calendar-title'>
+      <calendar id="calendar" bindload="handleLoad" view="week" />
+      
+      <!-- 引入底部菜单栏6 -->
+      <include src="/pages/menu/menu"/>
+    </view>
+</view>

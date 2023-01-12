@@ -1,0 +1,17 @@
+<!--pages/menu/menu.wxml-->
+<view class='menurow'>
+  <view class='menu'>
+    <image class='menuImg' src='/images/homePage.png'></image>
+    <text class='menuText'>首页</text>
+  </view>
+
+  <view class='menu'>
+    <image class='menuImg' src='/images/ranking.png'></image>
+    <text class='menuText'>排行榜</text>
+  </view>
+
+  <view class='menu'>
+    <image class='menuImg' src='/images/my.png'></image>
+    <text class='menuText'>我的</text>
+  </view>
+</view>

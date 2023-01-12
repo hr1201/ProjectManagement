@@ -1,0 +1,48 @@
+<!--pages/enroll/enroll.wxml-->
+
+<view data-weui-theme="{{theme}}">
+  <button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+    <!-- 图片 -->
+    <image class="avatar" src="{{avatarUrl}}"></image>
+  </button> 
+  <mp-form>
+    <mp-cells>
+      <!-- 昵称 -->
+      <view class="weui-cells__title">昵称</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input type="nickname" class="weui-input" auto-focus placeholder="请输入昵称"/>
+      </view>
+    </view>
+
+      <!-- 密码输入框 -->
+      <view class="weui-cells__title">设置密码</view>
+      <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+      <input  name="password" class="weui-input" placeholder-class="place-holder"  placeholder="请输入您要设置的密码（6-12位）" password='{{passwordType}}'></input>
+      <image class="password-eye" src="../img/睁眼.gif" bindtap="seeTap" wx:if="{{show_pass}}"/>
+      <image class="password-eye" src="../img/闭眼.gif" bindtap="seeTap" wx:else/>
+      </view>
+    </view>
+
+
+    <!-- 手机号码 -->
+    <view class="weui-cells__title">手机号码</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" type="number" placeholder="请输入手机号码" />
+      </view>
+    </view>
+
+    <!-- 组别验证码 -->
+    <view class="weui-cells__title">组别验证码</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" auto-focus placeholder="请输入验证码"/>
+      </view>
+    </view>
+
+    </mp-cells>
+  </mp-form>
+</view>
+

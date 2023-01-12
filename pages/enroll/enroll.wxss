@@ -1,0 +1,27 @@
+/* pages/enroll/enroll.wxss */
+.avatar-wrapper {
+  padding: 0;
+  width: 90px !important;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.avatar {
+  display: block;
+  width: 90px;
+  height: 90px;
+}
+
+.container {
+  display: flex;
+}
+
+.password-eye{
+  width: 45rpx;
+  height: 45rpx;
+}
+
+
+
+
