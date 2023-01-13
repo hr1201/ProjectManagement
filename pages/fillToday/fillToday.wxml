@@ -1,0 +1,25 @@
+<!--pages/fillToday/fillToday.wxml-->
+
+<view class="finish">
+  <view class="Text">
+    <text class="TextSon">任务完成描述</text>
+    <textarea class="task" focus="true" maxlength="-1" bindinput="bindTextArea"></textarea>
+  </view>
+
+  <view class="Text">
+    <text class="TextSon">明日计划任务</text>
+    <textarea class="task" maxlength="-1" bindinput="bindTomorrow"></textarea>
+  </view>
+
+  <view class="line"></view>
+
+  <view class="times">
+    <text class="timeText">计划打卡时间</text>
+  </view>
+  <textarea class="time" placeholder="2022/03/14 09:00" placeholder-style="font-size:30rpx;" bindinput="bindTime"></textarea>
+  
+  <view class="line"></view>
+
+  <view id="btn" class="save" bindtap="save">保存</view>
+
+</view>

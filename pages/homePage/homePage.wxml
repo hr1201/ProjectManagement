@@ -2,9 +2,14 @@
 <view class='calendar'>
   <!--显示当前年月日-->
   <view class='calendar-title'>
-      <calendar id="calendar" bindload="handleLoad" view="week" />
-      
-      <!-- 引入底部菜单栏6 -->
-      <include src="/pages/menu/menu"/>
-    </view>
+    <calendar id="calendar" bindload="handleLoad" view="week" />
+  </view>
+
+  <!-- 引入底部菜单栏 -->
+  <include src="/pages/menu/menu"/>
+   
+  <!-- 今日安排 -->
+
+  <!-- 加号导航 -->
+  
 </view>

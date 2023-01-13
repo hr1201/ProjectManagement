@@ -1,0 +1,75 @@
+/* pages/fillToday/fillToday.wxss */
+
+/* 整体 */
+.finish{
+  color: #000000;
+}
+
+/* 横线 */
+.line{
+  width:100%;
+  margin-top: 30rpx;
+  border-top: 2rpx #eeeff3 solid;
+}
+
+/* 可输入框的样式 */
+.Text{
+  display: flex;
+  height: 35%;
+  margin: 40rpx;
+  border: 3rpx solid #13cf84;
+  border-radius: 10rpx;
+}
+.TextSon{
+  position: absolute;
+  font-size: 26rpx;
+  background: white;
+  margin: -20rpx 0 0 20rpx;
+  padding: 0 10rpx;
+  color: rgb(144, 147, 167);
+}
+
+/* 可输入文字框范围 */
+.task{
+  width:100%;
+  height:330rpx;
+  margin: 10rpx 20rpx;
+  font-size: 35rpx;
+}
+
+/* 计划打卡时间 */
+.times{
+  width:50%;
+  height:40rpx;
+}
+.timeText{
+  display: inline-block;
+  margin-left: 12%;
+  margin-top: 9%;
+  font-weight: 550;
+}
+.time{
+  padding-left: 50%;
+  width:50%;
+  height:40rpx;
+}
+
+/* 保存按钮 */
+.save{
+  /* 按钮样式 */
+  width:90%;
+  height: 77rpx;
+  line-height: 88rpx;
+  background-color: #29dd8c;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius:15rpx;
+  font-size: 37rpx;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+  
+  /* 按钮位置 */
+  margin: 10% 5% 0 5%;
+}
+
+

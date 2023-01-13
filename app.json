@@ -1,9 +1,12 @@
 {
   "lazyCodeLoading": "requiredComponents",
   "pages":[
-    "pages/homePage/homePage",
-
+    "pages/fillToday/fillToday",
     "pages/enroll/enroll", 
+
+    "pages/homePage/homePage",
+    "pages/postData/postData",
+    "pages/viewDynamic/viewDynamic",
     "pages/index/index",
     "pages/logs/logs",
     "pages/menu/menu"

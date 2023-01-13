@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+
+  "navigationBarBackgroundColor": "#F8F8F8",
+  "navigationBarTitleText": "今日完成",
+  "navigationBarTextStyle": "black" 
+}
