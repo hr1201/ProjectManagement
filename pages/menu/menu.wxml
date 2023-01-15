@@ -1,17 +1,17 @@
 <!--pages/menu/menu.wxml-->
 <view class='menurow'>
-  <view class='menu'>
-    <image class='menuImg' src='/images/homePage.png'></image>
-    <text class='menuText'>首页</text>
+  <view class='menu' bindtap="first_select">
+    <image class='menuImg' src="{{homePage_img}}"></image>
+    <text class='menuText' style='color:{{homePage_color}}'>首页</text>
   </view>
 
-  <view class='menu'>
-    <image class='menuImg' src='/images/ranking.png'></image>
-    <text class='menuText'>排行榜</text>
+  <view class='menu' bindtap="second_select">
+    <image class='menuImg' src="{{ranking_img}}"></image>
+    <text class='menuText' style='color:{{ranking_color}}'>排行榜</text>
   </view>
 
-  <view class='menu'>
-    <image class='menuImg' src='/images/my.png'></image>
-    <text class='menuText'>我的</text>
+  <view class='menu' bindtap="third_select">
+    <image class='menuImg' src="{{my_img}}"></image>
+    <text class='menuText' style='color:{{my_color}}'>我的</text>
   </view>
 </view>

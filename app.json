@@ -1,11 +1,10 @@
 {
   "lazyCodeLoading": "requiredComponents",
   "pages":[
-    "pages/fillToday/fillToday",
-    "pages/enroll/enroll", 
-
     "pages/homePage/homePage",
-    "pages/postData/postData",
+    "pages/testData/testData",
+    "pages/enroll/enroll", 
+    "pages/fillToday/fillToday",
     "pages/viewDynamic/viewDynamic",
     "pages/index/index",
     "pages/logs/logs",

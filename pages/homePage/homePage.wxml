@@ -11,5 +11,5 @@
   <!-- 今日安排 -->
 
   <!-- 加号导航 -->
-  
+  <view class="addArticle" bindtap="addAnswer">＋</view>
 </view>

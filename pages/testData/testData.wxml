@@ -1,0 +1,36 @@
+<!--pages/testData/testData.wxml-->
+
+<view class="testData">
+  <!-- 测试内容框 -->
+  <view class="testContent">
+    <text class="text1">测试内容</text>
+    <textarea class="textArea" placeholder="请输入内容" focus="true" maxlength="-1" bindinput="bindTextArea"></textarea>
+  </view>
+
+  <!-- 数据归类 -->
+  <view class="classify">
+    
+    <view class="page-section">
+      <view class="page-section-title">数据归类</view>
+    </view>
+    <!-- 单选按钮 -->
+    <view class="category">
+      <radio-group class="form-radio_wrap" bindchange="radioChange"> 
+        <label class="weui-cell weui-check__label" wx:for="{{items}}" wx:key="{{item.value}}">
+          <view class="weui-cell__hd">
+            <radio class="oneCategory" value="{{item.value}}"/>
+          </view>
+          <view class="form-radio">{{item.name}}</view>
+        </label>
+      </radio-group>
+    </view>
+  </view>
+  <!-- 数据图片 -->
+  <view class="picture">
+    <text class="text">数据图片</text>
+    <view class="picturebox">
+      <image class='pictureImg' src="/images/picture(1).png" bindtap='uploadHeadImg'></image>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,114 @@
+/* pages/testData/testData.wxss */
+page{
+  background-color: #efefef;
+}
+/* 单选按钮 */
+radio .wx-radio-input {
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 100%;
+  background:#ffffff !important;
+  border-color:#0ccb82 !important;
+}
+/* 选中后 背景及勾 的样式 */
+radio .wx-radio-input.wx-radio-input-checked{
+  border: 4rpx solid #0ccb82 !important;
+  vertical-align: -4rpx !important;
+  /* background:#ffffff !important; */
+}
+radio .wx-radio-input::before{
+  /* 设置为块级元素，以进行样式化 */
+  /* display: block; 设置后动画式可以缩小圆,但是对不准*/
+  content: " ";
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 100%;
+  background-color: #0ccb82;
+  font-size: 38.4rpx;
+  /* translate以-50%，-50%为原点画图，scale(0)以0为半径缩小*/
+  transform: translate(-50%, -50%) scale(0);
+  /* transform-origin: center; */
+  /* 0.3s绘制图形 */
+  transition: all 0.3s ease-in;
+}
+radio .wx-radio-input.wx-radio-input-checked::before {    
+  /* 将勾号去掉 */
+  content: '';
+  /* translate以-50%，-50%为原点画图，scale(1)以1为半径画圆*/
+  transform: translate(-50%, -50%) scale(1);
+  /* 移动 ，使圆从无移动到有,从圆心开始生长，立方贝塞尔曲线*/
+  transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+}
+
+/* 测试内容框 */
+.testContent{
+  background-color: white;
+  margin-top: 0.3%;  
+  padding-top: 2.5%;
+}
+.text1{
+  padding: 3%;
+}
+.textArea{
+  padding-top: 2%;
+  padding: 3%;
+  font-size: 32rpx;
+}
+
+/* 数据归类 */
+.classify{
+  background-color: white;
+  margin-top: 3%;
+  height: 160rpx;
+}
+.page-section{
+  width: 200rpx;
+  height: 40rpx;
+}
+.page-section-title{
+  display: inline-block;
+  margin-left: 12%;
+  margin-top: 28%;
+}
+/* 单选按钮整体 */
+.category{
+  /* position: absolute; */
+  padding-left: 220rpx;
+  margin-top: -35rpx;
+}
+/* 单条单选按钮，带文字 */
+.weui-cell{
+  display: inline-block;
+  margin-top: -50rpx;
+  width: 30%;
+  height: 30%;
+}
+/* 按钮后的文字 */
+.form-radio{
+  margin-left:45rpx;
+  margin-top: -47rpx;
+}
+/* 数据图片 */
+.picture{
+  width: 100%;
+  height: 200rpx;
+  background-color: white;
+  margin-top: 3%;
+  padding-top: 2.5%;
+}
+.text{
+  margin-left: 3%;
+}
+.picturebox{
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 2%;
+  margin-left: 4%;
+  background-color: #efefef;
+  border-radius: 7rpx;
+}
+.pictureImg{
+  width: 45rpx;
+  height: 45rpx;
+  margin: 27%;
+}
